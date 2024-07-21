@@ -6,7 +6,7 @@ import Body from './components/Body';
 import About from './components/About';
 import Error from './components/Error';
 import Contact from './components/Contact';
-import { lazy } from 'react';
+
 
 const Grocery = lazy(()=> import('./components/Grocery'));
 
